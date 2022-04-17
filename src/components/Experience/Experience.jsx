@@ -1,6 +1,5 @@
 import React from 'react'
 import './experience.css'
-import {FaDotCircle} from 'react-icons/fa'
 
 const Experience = () => {
   return (
