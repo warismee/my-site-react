@@ -1,0 +1,51 @@
+.about_content{
+    display: grid;
+    grid-template-rows: auto;
+    gap:0.5rem;
+    margin:0 8rem;
+}
+
+.about_contianer{
+    color: var(--color-white);
+}
+.about_cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:0.9rem;
+}
+.about_interest{
+    background-color: rgba(241, 148, 138,0.2);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+h4{
+    color: var(--color-primary-variant);
+}
+.interest_icon{
+    font-size: x-large;
+    color: var(--color-primary-variant);
+}
+
+/*==========MEDIA QUERIES (MEDIUM)===========*/
+@media screen and (max-width:1024px) {
+    .about_content{
+        margin:0 2rem;
+    }
+}
+/*==========MEDIA QUERIES (SMALL)===========*/
+@media screen and (max-width:600px) {
+    .about_content{
+        display: grid;
+        grid-template-rows: auto;
+        gap:0.5rem;
+        margin:1rem
+    }
+
+    .about_cards{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:0.9rem;
+    }
+}
+

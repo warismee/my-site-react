@@ -1,0 +1,49 @@
+#portfolio{
+    height:60vh;
+}
+.port_cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:0.9rem;
+    margin:0 8rem;
+}
+.port_card{
+    background:rgba(241, 148, 138,0.2);
+    border-radius: 0.5rem;
+    padding:6rem 2rem;
+    text-align: center;
+}
+.port_card:hover{
+    background:rgba(0,0,0,0.2);
+}
+.port_card_disable{
+    background:rgba(0,0,0,0.2);
+    border-radius: 0.5rem;
+    padding:6rem 2rem;
+    text-align: center;
+}
+.disable{
+    cursor: not-allowed;
+}
+
+/*==========MEDIA QUERIES (MEDIUM)===========*/
+@media screen and (max-width:1024px) {
+    #portfolio{
+        height:115vh;
+    }
+    .port_cards{
+        margin:0 2rem;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap:0.9rem;
+    }
+}
+/*==========MEDIA QUERIES (SMALL)===========*/
+@media screen and (max-width:600px) {
+    .port_cards{
+        margin:0 2rem;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap:0.9rem;
+    }
+}

@@ -1,0 +1,48 @@
+.contact_container{
+    margin:0 25%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap:1.2rem;
+}
+
+input,textarea{
+    width:100%;
+    padding:1rem;
+    border-radius: 0.5rem;
+    border: 2px solid var(--color-primary-variant);
+    resize: none;
+    background: rgba(255,255,255,1);
+    font-size: medium;
+    font-weight: 400;
+    font-family: 'Nunito Sans', sans-serif;
+}
+textarea{
+    height: 250px;
+}
+
+/*==========MEDIA QUERIES (MEDIUM)===========*/
+@media screen and (max-width:1024px) {
+    #contact{
+        height:80vh;
+    }
+    .contact_container{
+        margin:0 4rem;
+    }
+    textarea{
+        height: 200px;
+    }
+}
+/*==========MEDIA QUERIES (SMALL)===========*/
+@media screen and (max-width:600px) {
+    #contact{
+        height:80vh;
+    }
+    .contact_container{
+        margin:0 4rem;
+    }
+    textarea{
+        height: 250px;
+    }
+}
