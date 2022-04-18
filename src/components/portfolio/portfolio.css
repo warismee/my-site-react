@@ -29,7 +29,7 @@
 /*==========MEDIA QUERIES (MEDIUM)===========*/
 @media screen and (max-width:1024px) {
     #portfolio{
-        height:115vh;
+        height:120vh;
     }
     .port_cards{
         margin:0 2rem;
@@ -40,6 +40,9 @@
 }
 /*==========MEDIA QUERIES (SMALL)===========*/
 @media screen and (max-width:600px) {
+    #portfolio{
+        height:180vh;
+    }
     .port_cards{
         margin:0 2rem;
         display: grid;

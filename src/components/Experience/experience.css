@@ -37,7 +37,7 @@ li{
 /*==========MEDIA QUERIES (MEDIUM)===========*/
 @media screen and (max-width:1024px) {
     #experience{
-        height:110vh;
+        height:230vh;
     }
     .exp_container{
         margin:0 2rem;
@@ -50,6 +50,9 @@ li{
 }
 /*==========MEDIA QUERIES (SMALL)===========*/
 @media screen and (max-width:600px) {
+    #experience{
+        height:480vh;
+    }
     .exp_container{
         display: grid;
         grid-template-rows: auto;

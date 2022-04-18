@@ -37,7 +37,7 @@ textarea{
 /*==========MEDIA QUERIES (SMALL)===========*/
 @media screen and (max-width:600px) {
     #contact{
-        height:80vh;
+        height:110vh;
     }
     .contact_container{
         margin:0 4rem;
