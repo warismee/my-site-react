@@ -51,7 +51,7 @@ li{
 /*==========MEDIA QUERIES (SMALL)===========*/
 @media screen and (max-width:600px) {
     #experience{
-        height:480vh;
+        height:470vh;
     }
     .exp_container{
         display: grid;
