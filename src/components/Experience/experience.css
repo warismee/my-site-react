@@ -33,6 +33,9 @@ li{
     list-style-type: circle;
     color:var(--color-light);
 }
+li>h5{
+    color:var( --color-primary);
+}
 
 /*==========MEDIA QUERIES (MEDIUM)===========*/
 @media screen and (max-width:1024px) {
