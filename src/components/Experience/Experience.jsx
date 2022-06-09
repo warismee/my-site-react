@@ -37,10 +37,9 @@ const Experience = () => {
         <div className='exp_card'>
           <h3>Technical skills</h3>
             <ul>
-              <li><h4>Web Development:</h4> HTML, CSS, Bootstrap, JavaScripts, Reactjs, .NET MVC, PHP</li>
-              <li><h4>Data Analytics:</h4> Basic SQL, Python, NLTK, Scikit-learn, Microsoft Excel</li>
-              <li><h4>Design:</h4> SolidWorks, Adobe InDesign, Wireframing tool (Marvel)</li>
-              <li><h4>Others:</h4> Unity, Embedded System with Raspberry Pi/Arduino, Microsoft Project</li>
+              <li><h4>Web Development:</h4><span>HTML, CSS, Bootstrap, JavaScripts/JQuery, PHP, MySQL, ReactJS, .NET MVC C#, Microsoft SQL server</span>I started learning HTML, CSS, Bootstrap, JavaScripts from an online Bootcamp course on Udemy which provided a good example and practical lesson to follow. I have gained more practical lesson after I started school projects at WelTec. In the Capstone project, I developed a CRUD web app of an expense manager using PHP, Bootstrap, JavaScript/JQuery to handle the Front-End, using PHP and MySQL to handle transferring data and database. In my free time, I continue learning from Online course on Udemy and YouTube, I have learnt ReactJS through the provided example and tried creating my own web-portfolio and Note app. I am enthusiastic to learn more about Front-end Frameworks. In the Web-development course, I built a simple CRUD web-app for Ecommerce using .NET MVC (C#) with Html helper and Bootstrap for Front-End and Microsoft SQL server and Entity Framework for handling data and database. I am enthusiastic to broaden this skill from building my own tailor Ecommerce website. I also gained more practical skill about C# in the Game Development course using Unity.</li>
+              <li><h4>User Experience:</h4><span>Marvel, Nielsens 10 Usability Heuristic Principles, Figma,  Justinmind</span> In the Human-computer interaction course, I designed a Wireframe/Prototype of a mobile app using Marvel tools to investigate User experience follows the Nielsens 10 Usability Heuristic Principles. In the Capstone Project, I used Figma and Justinmind for Wireframing tool.</li>
+              <li><h4>Project Management and Other Tools: <span>Microsoft Project, Jira, Git</span></h4>In the Capstone project, I gained experience using Microsoft Project to handle the project management along with Jira and using Git for sharing code with teammate.</li>
             </ul>
         </div>
         <div className='exp_card'>
