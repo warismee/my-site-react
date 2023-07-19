@@ -13,8 +13,9 @@ const Portfolio = () => {
           <h5>A school project about user experience design using Marvel as tool to design a prototype for mobile application</h5>
         </div>
        </a>
-       <a href='https://practice-keeper-note.herokuapp.com/' target='_blank'>
-        <div className='port_card'>
+       <a href='https://practice-keeper-note.herokuapp.com/' className='disable'>
+        <div className='port_card_disable'>
+        <h5>Unavailable due to heroku hosting site</h5>
           <h4>2nd Project</h4>
           <h3  className='text-light'>Note Keeper</h3>
           <h5>Practice coding in React: Learning conditional rendering, ES6 Spread operator, useState, React props, Object Destructuring</h5>

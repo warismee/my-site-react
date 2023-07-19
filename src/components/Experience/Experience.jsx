@@ -9,7 +9,7 @@ const Experience = () => {
       <div className='exp_cards_hz'>
         <div className='exp_card'>
           <h3>Education</h3>
-          <h4>Graduate Diploma in Information Technology, July 2021- Present</h4>
+          <h4>Graduate Diploma in Information Technology, 2022</h4>
           <h5 className='text-light'>Wellington Institute of Technology, New Zealand</h5>
           <br/>
           <h4>Web Design Training Package, 2021 </h4>
@@ -26,7 +26,7 @@ const Experience = () => {
         </div>
         <div className='exp_card'>
           <h3>Experiences</h3>
-          <h4>Front of House Sushi Maker (2020-present)</h4>
+          <h4>Front of House Sushi Maker (2020-2023)</h4>
           <h5 className='text-light'>Yoshi Sushi & Bento (Wellington, NZ)</h5>
           <br/>
           <h4>Technical officer (2016 - 2019)</h4>
