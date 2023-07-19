@@ -20,10 +20,11 @@ const Portfolio = () => {
           <h5>Practice coding in React: Learning conditional rendering, ES6 Spread operator, useState, React props, Object Destructuring</h5>
         </div>
        </a>
-       <a href='#' className='disable'>
-        <div className='port_card_disable'>
+       <a href='https://youtu.be/gF9Pe47-cqU' target='_blank'> {/*target to open in new window*/} 
+        <div className='port_card'>
           <h4>3rd Project</h4>
-          <h3 className='text-light'>Coming soon</h3>
+          <h3 className='text-light'>Zombie game showcase</h3>
+          <h5>First game project using Unity</h5>
         </div>
        </a>
      </div>
