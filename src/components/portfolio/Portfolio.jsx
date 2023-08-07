@@ -30,21 +30,21 @@ const Portfolio = () => {
        </a>
      </div>
      <div className='port_cards'>
-     <a href='https://youtu.be/vJr2GyIzRYg' target='_blank'> {/*target to open in new window*/} 
+      <a href='https://youtu.be/vJr2GyIzRYg' target='_blank'> {/*target to open in new window*/} 
         <div className='port_card'>
           <h4>4th Project</h4>
           <h3 className='text-light'>Expense Manager</h3>
           <h5>Developed CRUD app using PHP, Javascript, Bootstrap, mysql</h5>
         </div>
-       </a>
-     </div>
-     <a href='https://youtu.be/2wmAwigdr_k' target='_blank'> {/*target to open in new window*/} 
+      </a>
+      <a href='https://youtu.be/2wmAwigdr_k' target='_blank'> {/*target to open in new window*/} 
         <div className='port_card'>
           <h4>5th Project</h4>
           <h3 className='text-light'>2D game</h3>
           <h5>The second game project using animator in Unity</h5>
         </div>
-       </a>
+      </a>
+      </div>
   </section>
   )
 }
