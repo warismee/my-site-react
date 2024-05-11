@@ -39,21 +39,21 @@ li>h5{
 /*==========MEDIA QUERIES (15-INCH MONITOR Hi res)===========*/
 @media screen and (max-width: 1680px) {
     #experience {
-        height: 200vh;
+        height: 280vh;
     }
     .exp_container {
         margin: 0 2rem;
     }
     .exp_cards_vt {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 0.9rem;
     }
 }
 /*==========MEDIA QUERIES (15-INCH MONITOR)===========*/
 @media screen and (max-width: 1440px) {
     #experience {
-        height: 250vh;
+        height: 280vh;
     }
     .exp_container {
         margin: 0 2rem;
