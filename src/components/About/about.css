@@ -29,12 +29,18 @@ h4{
 
 /*==========MEDIA QUERIES (MEDIUM)===========*/
 @media screen and (max-width:1024px) {
+    #about{
+        height:50vh
+    }
     .about_content{
         margin:0 2rem;
     }
 }
 /*==========MEDIA QUERIES (SMALL)===========*/
 @media screen and (max-width:600px) {
+    #about{
+        height:130vh
+    }
     .about_content{
         display: grid;
         grid-template-rows: auto;

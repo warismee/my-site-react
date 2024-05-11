@@ -83,7 +83,7 @@ and (orientation : landscape) {
 /*==========MEDIA QUERIES (MEDIUM)===========*/
 @media screen and (max-width:1024px){
     #experience{
-        height:180vh;
+        height:230 vh;
     }
     .exp_container{
         margin:0 2rem;
@@ -97,7 +97,7 @@ and (orientation : landscape) {
 /*==========MEDIA QUERIES (SMALL)===========*/
 @media screen and (max-width:600px) {
     #experience{
-        height:470vh;
+        height:570vh;
     }
     .exp_container{
         display: grid;
