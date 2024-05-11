@@ -1,5 +1,5 @@
 #experience{
-    height: 270vh;
+    height: 200vh;
 }
 .exp_container{
     display: grid;
@@ -36,7 +36,34 @@ li{
 li>h5{
     color:var( --color-primary);
 }
-
+/*==========MEDIA QUERIES (15-INCH MONITOR Hi res)===========*/
+@media screen and (max-width: 1680px) {
+    #experience {
+        height: 200vh;
+    }
+    .exp_container {
+        margin: 0 2rem;
+    }
+    .exp_cards_vt {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0.9rem;
+    }
+}
+/*==========MEDIA QUERIES (15-INCH MONITOR)===========*/
+@media screen and (max-width: 1440px) {
+    #experience {
+        height: 250vh;
+    }
+    .exp_container {
+        margin: 0 2rem;
+    }
+    .exp_cards_vt {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0.9rem;
+    }
+}
 /*==========MEDIA QUERIES (MEDIUM LANDSCAPEn)===========*/
 @media screen and (min-device-width : 768px) 
 and (max-device-width : 1024px) 

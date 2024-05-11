@@ -8,6 +8,17 @@ const Experience = () => {
     <div className='exp_container'>
       <div className='exp_cards_hz'>
         <div className='exp_card'>
+          <h3>Experiences</h3>
+          <h4>Junior Web Developer | PHP | Laravel (2023-Present)</h4>
+          <h5 className='text-light'>Azendo (Chiang Mai, Thailand)</h5>
+          <br/>
+          <h4>Front of House Sushi Maker (2020-2023)</h4>
+          <h5 className='text-light'>Yoshi Sushi & Bento (Wellington, NZ)</h5>
+          <br/>
+          <h4>Technical officer (2016 - 2019)</h4>
+          <h5 className='text-light'>Management System Certification Institute (Bangkok, Thailand)</h5>
+        </div>
+        <div className='exp_card'>
           <h3>Education</h3>
           <h4>Graduate Diploma in Information Technology, 2022</h4>
           <h5 className='text-light'>Wellington Institute of Technology, New Zealand</h5>
@@ -24,20 +35,12 @@ const Experience = () => {
           <h4>M.Sc. (Business Information System), 2019</h4>
           <h5 className='text-light'>King Mongkut's University of Technology Thonburi - Bangkok, Thailand</h5>
         </div>
-        <div className='exp_card'>
-          <h3>Experiences</h3>
-          <h4>Front of House Sushi Maker (2020-2023)</h4>
-          <h5 className='text-light'>Yoshi Sushi & Bento (Wellington, NZ)</h5>
-          <br/>
-          <h4>Technical officer (2016 - 2019)</h4>
-          <h5 className='text-light'>Management System Certification Institute (Bangkok, Thailand)</h5>
-        </div>
       </div>
       <div className='exp_cards_vt'>
         <div className='exp_card'>
           <h3>Technical skills</h3>
             <ul>
-              <li><h4>Web Development:</h4><h5>HTML, CSS, Bootstrap, JavaScripts/JQuery, PHP, MySQL, ReactJS, .NET MVC C#, Microsoft SQL server</h5>I started learning HTML, CSS, Bootstrap, JavaScripts from an online Bootcamp course on Udemy which provided a good example and practical lesson to follow. I have gained more practical lesson after I started school projects at WelTec. In the Capstone project, I developed a CRUD web app of an expense manager using PHP, Bootstrap, JavaScript/JQuery to handle the Front-End, using PHP and MySQL to handle transferring data and database. In my free time, I continue learning from Online course on Udemy and YouTube, I have learnt ReactJS through the provided example and tried creating my own web-portfolio and Note app. I am enthusiastic to learn more about Front-end Frameworks. In the Web-development course, I built a simple CRUD web-app for Ecommerce using .NET MVC (C#) with Html helper and Bootstrap for Front-End and Microsoft SQL server and Entity Framework for handling data and database. I am enthusiastic to broaden this skill from building my own tailor Ecommerce website. I also gained more practical skill about C# in the Game Development course using Unity.</li>
+              <li><h4>Web Development:</h4><h5>HTML, CSS, Bootstrap, JavaScripts/JQuery, PHP, Laravel, MySQL, ReactJS, .NET MVC C#, Microsoft SQL server</h5>I started learning HTML, CSS, Bootstrap, JavaScripts from an online Bootcamp course on Udemy which provided a good example and practical lesson to follow. I have gained more practical lesson after I started school projects at WelTec. In the Capstone project, I developed a CRUD web app of an expense manager using PHP, Bootstrap, JavaScript/JQuery to handle the Front-End, using PHP and MySQL to handle transferring data and database. In my free time, I continue learning from Online course on Udemy and YouTube, I have learnt ReactJS through the provided example and tried creating my own web-portfolio and Note app. I am enthusiastic to learn more about Front-end Frameworks. In the Web-development course, I built a simple CRUD web-app for Ecommerce using .NET MVC (C#) with Html helper and Bootstrap for Front-End and Microsoft SQL server and Entity Framework for handling data and database. I am enthusiastic to broaden this skill from building my own tailor Ecommerce website. I also gained more practical skill about C# in the Game Development course using Unity.</li>
               <li><h4>User Experience:</h4><h5>Marvel, Nielsens 10 Usability Heuristic Principles, Figma,  Justinmind</h5> In the Human-computer interaction course, I designed a Wireframe/Prototype of a mobile app using Marvel tools to investigate User experience follows the Nielsens 10 Usability Heuristic Principles. In the Capstone Project, I used Figma and Justinmind for Wireframing tool.</li>
               <li><h4>Project Management and Other Tools:</h4><h5>Microsoft Project, Jira, Git</h5>In the Capstone project, I gained experience using Microsoft Project to handle the project management along with Jira and using Git for sharing code with teammate.</li>
             </ul>
