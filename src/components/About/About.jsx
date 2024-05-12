@@ -13,7 +13,7 @@ const About = () => {
       <div className='about_content'>
         <div className='about_container'>
           <article className='about_card'>
-            <p>I obtained Graduate Diploma in IT at Wellington Institute of Technology in 2022 and I am taking an online course about Web Development on Udemy/YouTube during my free time. I have a strong interest in Front-end development, enjoy coding and enjoy building a beautiful and functional website interface. I am looking for opportunities as a junior developer role at present with the desire to develop my skillset and move toward becoming a full-stack developer in the future.</p>
+          <p>I am a Junior Web Developer. I obtained Graduate Diploma in IT at Wellington Institute of Technology in 2022 and I continue learning via online courses about Web Development on Udemy/YouTube during my free time. I enjoy coding and enjoy building a beautiful and functional website interface. I am developing my skillset and move toward becoming a full-stack developer.</p>
           </article>
         </div>
         <div className='about_container'>
