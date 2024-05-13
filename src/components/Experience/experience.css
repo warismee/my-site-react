@@ -1,5 +1,5 @@
 #experience{
-    height: 200vh;
+    height: 220vh;
 }
 .exp_container{
     display: grid;
@@ -98,6 +98,24 @@ and (orientation : landscape) {
 @media screen and (max-width:600px) {
     #experience{
         height:570vh;
+    }
+    .exp_container{
+        display: grid;
+        grid-template-rows: auto;
+        gap:0.5rem;
+        margin:1rem
+    }
+
+    .exp_cards_vt{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap:0.9rem;
+    }
+}
+/*==========MEDIA QUERIES (SMALL)===========*/
+@media screen and (max-width:400px) {
+    #experience{
+        height:620vh;
     }
     .exp_container{
         display: grid;
